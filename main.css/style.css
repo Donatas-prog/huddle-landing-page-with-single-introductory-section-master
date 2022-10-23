@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    
+    height: auto;
+    background-image: url(/images/bg-mobile.svg); 
+    background-position: right 0px top 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    color: white;
+    position: absolute;
+    
+}
+
+img {
+    
+    width: 100%;
+    height: auto;
+    
+    
+     
+    }
+    section {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+header {
+    padding: 2rem;
+    font-family: 'Poppins', sans-serif;
+    background: url(/images/logo.svg);
+    background-repeat: no-repeat;
+    background-size: 8rem;
+    margin: 0em 0em 4em 3em;
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+    
+
+}
+article  p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    padding: 0rem 3rem 1rem 3rem;
+    
+}
+h1 {
+    padding: 4rem 3rem 1rem 3rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    
+}
+
+.register {
+    
+    height: 5rem;
+    display: grid;
+    place-items: center;
+    
+
+}
+#button {
+    
+    width: 13rem;
+    height: 3rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    }
+#button:hover {
+    background: hsl(300, 69%, 71%);
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    
+    
+}
+ion-icon {
+    font-size: 14px;
+    padding: .6rem;
+    outline: 1px solid white;
+    border-radius: 1rem;
+    margin: .2rem;
+    cursor: pointer;
+    
+    
+}
+.attribution 
+{ 
+    font-size: 11px; text-align: center; 
+}
+.attribution a 
+{
+     color: hsl(228, 45%, 44%); 
+    }
+
+@media (min-width: 768px) {
+main {
+    
+    background-image: url(/images/bg-desktop.svg);
+    background-position: right 20rem top 0rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    
+    
+    
+}
+.container {
+    width: 100%;
+    height: auto;
+    
+    }
+
+    .huddle-container {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .icons {
+        
+        justify-content: flex-end;
+        margin-right: 3rem;
+        
+    }
+    img {
+        
+         max-width: 90%;
+        height: auto; 
+        margin: 3em;
+        }
+
+    .register {
+        justify-content: flex-start;
+        margin-left: 3rem;
+    }     
+    article {
+        max-width: 50%;
+        margin-top: 0rem;
+        
+    } 
+    article h1 {
+        
+        font-size: 3.5rem;
+        text-align: left;
+        
+    }
+    article p {
+        text-align: left;
+        margin-right: 2rem;
+    }
+    
+
+}
+
+
+
