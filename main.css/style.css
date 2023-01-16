@@ -7,7 +7,7 @@
 main {
     
     height: auto;
-    background-image: url(/images/bg-mobile.svg); 
+    background-image: url(../images/bg-mobile.svg); 
     background-position: right 0px top 0px;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@ img {
 header {
     padding: 2rem;
     font-family: 'Poppins', sans-serif;
-    background: url(/images/logo.svg);
+    background: url(../images/logo.svg);
     background-repeat: no-repeat;
     background-size: 8rem;
     margin: 0em 0em 4em 3em;
@@ -107,7 +107,7 @@ ion-icon {
 @media (min-width: 768px) {
 main {
     
-    background-image: url(/images/bg-desktop.svg);
+    background-image: url(../images/bg-desktop.svg);
     background-position: right 20rem top 0rem;
     background-size: contain;
     background-repeat: no-repeat;
